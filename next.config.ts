@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  env: {
+    BINANCE_API_KEY: process.env.BINANCE_API_KEY,
+    BINANCE_SECRET_KEY: process.env.BINANCE_SECRET_KEY
+  }
 };
 
 export default nextConfig;
+
